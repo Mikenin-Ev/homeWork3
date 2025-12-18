@@ -35,6 +35,16 @@ public class Main {
         System.out.println(" ");
 
         System.out.println("Задача № 3 ");
+        int class1 = 23;
+        int class2 = 27;
+        int class3 = 30;
+        int totalList = 480;
+        int oneStudentGet = totalList / (class1 + class2 + class3);
+        System.out.println("На каждого ученика расчитано " + oneStudentGet + " листов бумаги.");
+        System.out.println(" ");
+
+        System.out.println("Задача № 4 ");
+
 
     }
 }
