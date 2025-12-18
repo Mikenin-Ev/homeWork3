@@ -66,10 +66,16 @@ public class Main {
                 " банок белой краски и " + brownPaint + " банок коричневой краски");
         System.out.println(" ");
 
-
-
-
-
+        System.out.println("Задача № 6 ");
+        float bananas = 80 * 5;
+        float milk = 105 * 2;
+        float iceCream = 100 * 2;
+        float eggs = 70 * 4;
+        float totalWeightGr = bananas + milk + iceCream + eggs;
+        float totalWeightKg = totalWeightGr / 1000;
+        System.out.println("Общий вес завтрака составляет " + totalWeightGr + " граммов или " +
+                totalWeightKg + " килограммов");
+        System.out.println(" ");
 
 
     }
