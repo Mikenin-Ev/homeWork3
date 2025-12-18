@@ -44,6 +44,19 @@ public class Main {
         System.out.println(" ");
 
         System.out.println("Задача № 4 ");
+        int bottlesFor2Minutes = 16;
+        int bottlesFor1Minutes = bottlesFor2Minutes / 2;
+        int bottlesFor20Minutes = bottlesFor1Minutes * 20;
+        System.out.println("Эа 20 минут машина произвела " + bottlesFor20Minutes + " бутылок");
+        int bottlesFor1Day = bottlesFor1Minutes * 60 * 24;
+        System.out.println("За сутки машина произвела " + bottlesFor1Day + " бутылок");
+        int bottlesFor3Day = bottlesFor1Day * 3;
+        System.out.println("Эа три дня машина произвела " + bottlesFor3Day + " бутылок");
+        int bottlesFor1Month = bottlesFor1Day * 30;
+        System.out.println("За один месяц машина произвела " + bottlesFor1Month + " бутылок");
+        System.out.println(" ");
+
+
 
 
 
