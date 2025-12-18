@@ -18,5 +18,23 @@ public class Main {
         System.out.println("Значение переменной doubleVar c типом double равно " + doubleVar);
         System.out.println(" ");
 
+        System.out.println("Задача № 2 ");
+        float floatType = 27.12f;
+        long longType = 987678965549L;
+        double doubleType = 2.786;
+        short shortType1 = 569;
+        short shortType2 = -159;
+        int intType = 27897;
+        byte byteType = 67;
+        System.out.println("float: " + floatType);
+        System.out.println("long: " + longType);
+        System.out.println("double: " + doubleType);
+        System.out.println("short: " + shortType1 + " и " + shortType2);
+        System.out.println("int: " + intType);
+        System.out.println("byte: " + byteType);
+        System.out.println(" ");
+
+        System.out.println("Задача № 3 ");
+
     }
 }
