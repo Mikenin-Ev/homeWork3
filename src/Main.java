@@ -56,6 +56,18 @@ public class Main {
         System.out.println("За один месяц машина произвела " + bottlesFor1Month + " бутылок");
         System.out.println(" ");
 
+        System.out.println("Задача № 5 ");
+        int allPaint = 120;
+        int oneClassPaint = 2 + 4;
+        int allClassPaint = allPaint / oneClassPaint;
+        int whitePaint = allClassPaint * 2;
+        int brownPaint = allClassPaint * 4;
+        System.out.println("В школе, в которой " + allClassPaint + " классов, нужно " + whitePaint +
+                " банок белой краски и " + brownPaint + " банок коричневой краски");
+        System.out.println(" ");
+
+
+
 
 
 
