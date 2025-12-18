@@ -67,28 +67,45 @@ public class Main {
         System.out.println(" ");
 
         System.out.println("Задача № 6 ");
-        float bananas = 80 * 5;
-        float milk = 105 * 2;
-        float iceCream = 100 * 2;
-        float eggs = 70 * 4;
-        float totalWeightGr = bananas + milk + iceCream + eggs;
-        float totalWeightKg = totalWeightGr / 1000;
+        int bananas = 80 * 5;
+        int milk = 105 * 2;
+        int iceCream = 100 * 2;
+        int eggs = 70 * 4;
+        int totalWeightGr = bananas + milk + iceCream + eggs;
+        float totalWeightKg = totalWeightGr / (float) 1000;
         System.out.println("Общий вес завтрака составляет " + totalWeightGr + " граммов или " +
                 totalWeightKg + " килограммов");
         System.out.println(" ");
 
         System.out.println("Задача № 7 ");
-        float endResult = 7 * 1000;
-        float minPerDay = 250;
-        float maxPerDay = 500;
-        float minResult = endResult / minPerDay;
-        float maxResult = endResult / maxPerDay;
-        float averageResult = endResult / ((minResult + maxResult) / 2);
+        int endResult = 7 * 1000;
+        int minPerDay = 250;
+        int maxPerDay = 500;
+        int minResult = endResult / minPerDay;
+        int maxResult = endResult / maxPerDay;
+        int averageResult = endResult / ((minPerDay + maxPerDay) / 2);
         System.out.println(" Для снижения веса на 7 килограмм спортсмену понадобится: минимум " + maxResult +
-                " максимум " + minResult + "дней, но в среднем - это составит " + averageResult + " дней");
+                " максимум " + minResult + " дней, но в среднем - это составит " + averageResult + " дней");
         System.out.println(" ");
 
-
-
+        System.out.println("Задача № 8");
+        int mashaSalary = 67760;
+        int dinisSalary = 83690;
+        int christinaSalary =  76230;
+        int mashaBonus = mashaSalary / 10;
+        int dinisBonus = dinisSalary / 10;
+        int christinaBonus = christinaSalary / 10;
+        int newMashaSalary = mashaSalary + mashaBonus;
+        int newDinisSalary = dinisSalary + dinisBonus;
+        int newChristinaSalary = christinaSalary + christinaBonus;
+        int mashaSalaryDifferenceYr = (newMashaSalary - mashaSalary) * 12;
+        int dinisSalaryDifferenceYr = (newDinisSalary - dinisSalary) * 12;
+        int christinaSalaryDifferenceYr = (newChristinaSalary - christinaSalary) * 12;
+        System.out.println("Маша теперь получает " + newMashaSalary + "рублей. Годовой доход вырос на " +
+                mashaSalaryDifferenceYr + " рублей в год");
+        System.out.println("Динис теперь получает " + newDinisSalary + " рублей. Годовой доход вырос на " +
+                dinisSalaryDifferenceYr + " рублей в год");
+        System.out.println("Динис теперь получает " + newChristinaSalary + " рублей. Годовой доход вырос на " +
+                christinaSalaryDifferenceYr + " рублей в год");
     }
 }
