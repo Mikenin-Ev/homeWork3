@@ -77,6 +77,18 @@ public class Main {
                 totalWeightKg + " килограммов");
         System.out.println(" ");
 
+        System.out.println("Задача № 7 ");
+        float endResult = 7 * 1000;
+        float minPerDay = 250;
+        float maxPerDay = 500;
+        float minResult = endResult / minPerDay;
+        float maxResult = endResult / maxPerDay;
+        float averageResult = endResult / ((minResult + maxResult) / 2);
+        System.out.println(" Для снижения веса на 7 килограмм спортсмену понадобится: минимум " + maxResult +
+                " максимум " + minResult + "дней, но в среднем - это составит " + averageResult + " дней");
+        System.out.println(" ");
+
+
 
     }
 }
